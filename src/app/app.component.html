@@ -1,20 +1,144 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+  <!-- <style>
+    .bg-1 {
+        background-color: #1abc9c; /* Green */
+        color: #ffffff;
+    }
+    .bg-2 {
+        background-color: #474e5d; /* Dark Blue */
+        color: #ffffff;
+    }
+    .bg-3 {
+        background-color: #fff; /* White */
+        color: #555555;
+    }
+    </style> -->
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Start Bootstrap</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Contact</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Download</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="masthead">
+  <div class="container h-100">
+    <div class="col-lg-7 my-auto">
+      <div class="header-content mx-auto">
+        <h1 class="mb-5">New Age is an App.</h1>
+        <a href="#" class="btn btn-outline btn-xl js-scroll-trigger">Start!</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-5 my-auto">
+    <div class="device-container">
+      <div class="device-mockup iphone6_plus portrait white">
+        <div class="device">
+          <div class="screen">
+            <img src="../assets/demo-screen-1.jpg" class="img-fluid" alt>
+          </div>
+          <div class="button"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="download bg-primary text-center" id="download">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <h2 class="section-heading">Discover! What's the BUZZ?</h2>
+        <p>Our app Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        <div class="badges">
+          <a class="badge-link" href="#">
+            <img src="../assets/app-store-badge.svg" alt>
+          </a>
+          <a class="badge-link" href="#">
+            <img src="../assets/google-play-badge.svg" alt>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="features" id="features">
+  <div class="container">
+    <div class="section-heading text-center">
+      <h2>Unlimited Lorem</h2>
+      <p class="text-muted">Check it out</p>
+      <hr>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 my-auto">
+        <div class="device-container">
+          <div class="device-mockup iphone6_plus portrait white">
+            <div class="device">
+              <img src="#" class="img-fluid" alt>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-8 my-auto">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="feature-item">
+              <i class="icon-screen-smartphone text-primary"></i>
+              <h3>Device Mockups</h3>
+              <p class="text-muted">Ready to use HTML/CSS</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="feature-item">
+              <i class="icon-camera text-primary"></i>
+              <h3>Flexible Use</h3>
+              <p class="text-muted">Lorem ipsum dolor sit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="feature-item">
+              <i class="icon-present text-primary"></i>
+              <h3>Lorem</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="feature-item">
+              <i class="icon-lock-open text-primary"></i>
+              <h3>Open Source</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+</body>
+</html>
